@@ -1,0 +1,18 @@
+http://localhost:8080/pedidos
+Post:
+{
+  "valorCompra": 200.0,
+  "valorDesconto": 20.0,
+  "status": "PENDENTE",
+  "metodoPagamento": "CARTÃO",
+  "usuario": {
+    "id": 1
+  }
+}
+
+http://localhost:8080/usuarios
+Post:
+{
+   "nome":"Marlon",
+   "email":"marlon@gmail.com"
+}
